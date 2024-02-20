@@ -15,11 +15,13 @@ console.log(prezzo);
 
 if (eta < 18) {
     console.log('Applico sconto 20%');
-    sconto = parseFloat(console.log((prezzo * 20) /100));
+    sconto = parseFloat((prezzo * 20) /100).toFixed(2);
+    console.log(sconto);
 }
 else if (eta > 65){
     console.log('Applico sconto del 40%');
-    sconto = parseFloat(console.log((prezzo * 40) /100));
+    sconto = parseFloat((prezzo * 40) /100).toFixed(2);
+    console.log(sconto);
 }
 else{
     console.log('Nessuno sconto applicato');
