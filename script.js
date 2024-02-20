@@ -30,4 +30,4 @@ else{
 const prezzoScontato = parseFloat(prezzo - sconto);
 console.log(prezzoScontato);
 
-document.getElementById('output').innerHTML = prezzoScontato;
+document.getElementById('output').innerHTML = prezzoScontato + ' €';
